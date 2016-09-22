@@ -1,6 +1,6 @@
 {
   "name": "deploy-ddns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and Powerful Round Robin DNS LoadBalancer. ",
   "main": "deploy-ddns.js",
   "scripts": {
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/HmHmmHm/DeployDDNS#readme",
   "dependencies": {
+    "check-ip-address": "^1.1.2",
     "jsonwebtoken": "^7.1.9",
+    "native-dns": "^0.7.0",
     "rsa-compat": "^1.2.7"
   }
 }

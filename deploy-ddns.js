@@ -1,6 +1,7 @@
 let logger = require('./sources/logger.js');
 let FileSystem = require('fs');
 let jwt = require('jsonwebtoken');
+let checkip = require('check-ip-address');
 let rsa = require('rsa-compat').RSA;
 let path = require('path');
 
