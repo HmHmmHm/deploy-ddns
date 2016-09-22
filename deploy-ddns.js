@@ -17,7 +17,6 @@ if (FileSystem.existsSync(DNSStorePath)) {
 
 let externalIpFindService = 'https://api.ipify.org';
 
-//TODO REST
 class DeployDDNS {
     static load() {
         logger('LOAD THE DDNS REINHARDT DDNS SERVER...');
